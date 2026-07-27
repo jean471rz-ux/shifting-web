@@ -1,27 +1,129 @@
-# SYSTEM DIRECTIVE: SHIFTING MANIFIESTO CUÁNTICO
-# AUTHOR & BRAND: JEAN ORTEGA F.
+<!DOCTYPE html>
+<html lang="es" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHIFTING: MANIFIESTO CUÁNTICO | Jean Ortega F.</title>
+    
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        obsidian: '#0D0D0D',
+                        marble: '#050505',
+                        gold: '#D4AF37',
+                        copper: '#B87333',
+                    },
+                    fontFamily: {
+                        serif: ['Cinzel', 'serif'],
+                        sans: ['Montserrat', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700;900&family=Montserrat:wght@300;400;600;800&display=swap" rel="stylesheet">
 
-## EXECUTION MODE
-- Mode: Full Automation & Autonomous Decision Making.
-- Do not ask for confirmation on UI/UX micro-adjustments or bug fixes.
-- Execute directly, test layout integrity, and solve layout bugs automatically.
+    <style>
+        body {
+            background-color: #0D0D0D;
+            color: #F5F5F7;
+            font-family: 'Montserrat', sans-serif;
+        }
+        .gold-glow {
+            box-shadow: 0 0 25px rgba(212, 175, 55, 0.25);
+        }
+        .gold-border {
+            border: 1px solid rgba(212, 175, 55, 0.4);
+        }
+        .text-gold-gradient {
+            background: linear-gradient(135deg, #FFF 0%, #D4AF37 50%, #B87333 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    </style>
+</head>
+<body class="bg-obsidian text-white min-h-screen flex flex-col justify-between selection:bg-gold selection:text-black">
 
-## VISUAL IDENTITY & BRAND SYSTEM
-- Aesthetics: High-End Luxury, Cyber-Sacred & Quantum Engineering.
-- Color Palette:
-  - Background: Jet-Black Obsidian (#0D0D0D) & Polished Marble (#050505).
-  - Primary Accent: Brilliant 24k Gold (#D4AF37).
-  - Secondary Accent: Neon Copper (#B87333 / #FF7700).
-  - Text: Off-white / Pure White (#F5F5F7).
-- Typography: 'Cinzel' (Headings/Luxury Serif) & 'Montserrat' or 'Inter' (Clean UI Sans-Serif).
+    <!-- Header / Navbar -->
+    <header class="border-b border-gold/20 bg-marble/80 backdrop-blur-md sticky top-0 z-50 px-6 py-4 flex justify-between items-center">
+        <div class="font-serif font-bold text-xl tracking-widest text-gold-gradient">
+            SHIFTING
+        </div>
+        <a href="#vault" class="px-5 py-2 text-xs font-semibold uppercase tracking-wider text-black bg-gold rounded hover:bg-yellow-400 transition-all gold-glow">
+            Acceso Prioritario
+        </a>
+    </header>
 
-## UI/UX ARCHITECTURE REFERENCE
-- Hero Section Layout: Executive Tech/Mastermind style.
-- Right Column: High-impact hero image of author (Jean Ortega F.) with golden/copper edge glow and pop-out framing.
-- Left Column: Bold value proposition, high-converting subheadline, dual action buttons (24k Gold CTA + Dark Outline Secondary).
-- Key Elements: Floating KPI metrics bar (15 Chapters, 15+ 8K Visual Assets, 1 Release Directive, ∞ Vault Access).
-- Components: Product Vault mockup card, interactive resource bank grid, sticky high-converting header, dark-mode footer.
+    <!-- Hero Section -->
+    <main class="max-w-6xl mx-auto px-6 py-16 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+        
+        <!-- Left Column: Copy & CTAs -->
+        <div class="space-y-6">
+            <div class="inline-block px-3 py-1 text-xs font-semibold tracking-widest text-gold border border-gold/30 rounded-full uppercase bg-gold/5">
+                Lanzamiento Exclusivo 2026
+            </div>
+            
+            <h1 class="text-4xl md:text-6xl font-serif font-black leading-tight tracking-tight">
+                MANIFIESTO <br>
+                <span class="text-gold-gradient">CUÁNTICO</span>
+            </h1>
+            
+            <p class="text-gray-400 text-sm md:text-base leading-relaxed">
+                Reformula las leyes de tu entorno, domina el ecosistema comercial y ejecuta con precisión quirúrgica. Un sistema creado por <strong class="text-white">Jean Ortega F.</strong>
+            </p>
 
-## IMAGE GENERATION & RENDER INTEGRATION
-- When generating image components or SVG placeholders, strictly enforce the 24k gold wireframe and obsidian background directives.
-- Always include fallback styling so missing images display styled gold-bordered frames smoothly. 
+            <!-- Metrics Bar -->
+            <div class="grid grid-cols-3 gap-4 py-4 border-y border-white/10 my-6">
+                <div>
+                    <div class="text-2xl font-bold font-serif text-gold">15</div>
+                    <div class="text-[10px] text-gray-500 uppercase tracking-wider">Capítulos</div>
+                </div>
+                <div>
+                    <div class="text-2xl font-bold font-serif text-gold">8K</div>
+                    <div class="text-[10px] text-gray-500 uppercase tracking-wider">Visual Assets</div>
+                </div>
+                <div>
+                    <div class="text-2xl font-bold font-serif text-gold">∞</div>
+                    <div class="text-[10px] text-gray-500 uppercase tracking-wider">Vault Access</div>
+                </div>
+            </div>
+
+            <!-- CTAs -->
+            <div class="flex flex-col sm:flex-row gap-4">
+                <a href="#vault" class="px-8 py-4 text-center font-bold text-black bg-gold rounded hover:bg-yellow-400 transition-all gold-glow text-sm uppercase tracking-wider">
+                    Obtener Manifiesto
+                </a>
+                <a href="#details" class="px-8 py-4 text-center font-bold text-white border border-white/20 rounded hover:border-gold/60 transition-all text-sm uppercase tracking-wider">
+                    Ver Detalles
+                </a>
+            </div>
+        </div>
+
+        <!-- Right Column: Author Image / Card -->
+        <div class="relative flex justify-center">
+            <div class="relative w-full max-w-sm rounded-2xl overflow-hidden gold-border gold-glow bg-gradient-to-b from-marble to-obsidian p-2">
+                <img src="jean_ortega.jpg" alt="Jean Ortega F." class="w-full h-auto rounded-xl object-cover filter grayscale contrast-125 hover:grayscale-0 transition-all duration-500" onerror="this.src='https://via.placeholder.com/400x500/050505/D4AF37?text=Jean+Ortega+F.'">
+                <div class="p-4 text-center">
+                    <h3 class="font-serif text-lg font-bold text-gold tracking-wide">JEAN ORTEGA F.</h3>
+                    <p class="text-xs text-gray-400 uppercase tracking-widest mt-1">Mastermind & Author</p>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="border-t border-white/10 py-6 text-center text-xs text-gray-600 bg-marble">
+        <p>&copy; 2026 SHIFTING. Todos los derechos reservados. Diseñado por Jean Ortega F.</p>
+    </footer>
+
+</body>
+</html>
